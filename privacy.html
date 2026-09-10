@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TraceMyRide – Adatvédelmi tájékoztató / Privacy Policy</title>
+<meta name="description" content="A TraceMyRide Android alkalmazás adatvédelmi tájékoztatója. Privacy policy of the TraceMyRide Android app.">
+<style>
+  /* Szándékosan csak rendszerbetűk: egy adatvédelmi oldal ne küldjön
+     kérést harmadik fél (pl. Google Fonts) szervereire. */
+  :root {
+    --night: #0b0d13;
+    --ink: #1b2230;
+    --muted: #5a6473;
+    --paper: #eef1f5;
+    --sheet: #ffffff;
+    --amber: #f2a33a;
+    --rule: #d6dbe3;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  header {
+    background: var(--night);
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .horizon {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .head-inner {
+    position: relative;
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 1.25rem 2.5rem;
+  }
+  .app {
+    margin: 0 0 .25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--amber);
+    letter-spacing: .01em;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 2.75rem);
+    line-height: 1.1;
+    font-weight: 750;
+    letter-spacing: -.02em;
+  }
+  .lang {
+    margin: 1.5rem 0 0;
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+  }
+  .lang a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 999px;
+    padding: .3rem .9rem;
+    font-size: .95rem;
+  }
+  .lang a:hover { border-color: var(--amber); }
+  a:focus-visible {
+    outline: 3px solid var(--amber);
+    outline-offset: 2px;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+  }
+  article {
+    background: var(--sheet);
+    border-radius: 6px;
+    padding: 2rem 1.5rem;
+    margin-bottom: 2rem;
+  }
+  article > h2 {
+    margin: 0 0 .25rem;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: -.01em;
+  }
+  .date {
+    margin: 0 0 1.5rem;
+    color: var(--muted);
+    font-size: .95rem;
+  }
+  .short {
+    border-left: 4px solid var(--amber);
+    background: #fff8ec;
+    padding: 1rem 1.25rem;
+    margin: 0 0 2rem;
+    border-radius: 0 6px 6px 0;
+  }
+  .short p { margin: 0; }
+  .short p + p { margin-top: .5rem; }
+  h3 {
+    margin: 2rem 0 .5rem;
+    font-size: 1.15rem;
+    line-height: 1.3;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+  p { margin: 0 0 .9rem; }
+  ul { margin: 0 0 .9rem; padding-left: 1.25rem; }
+  li { margin-bottom: .45rem; }
+  a { color: #1f5fbf; }
+  .placeholder {
+    background: #ffe9a8;
+    padding: 0 .2em;
+    border-radius: 3px;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: .9rem;
+    padding-bottom: 3rem;
+  }
+  @media (min-width: 40rem) {
+    article { padding: 2.5rem 2.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <!-- Megdöntött horizontvonal – a dőlésszögmérés vizuális utalása -->
+  <svg class="horizon" viewBox="0 0 800 260" preserveAspectRatio="none" aria-hidden="true">
+    <line x1="-40" y1="250" x2="840" y2="95" stroke="#f2a33a" stroke-width="2" stroke-opacity=".55"/>
+    <line x1="-40" y1="172" x2="840" y2="172" stroke="#ffffff" stroke-width="1" stroke-opacity=".08"/>
+  </svg>
+  <div class="head-inner">
+    <p class="app">TraceMyRide</p>
+    <h1>Adatvédelmi tájékoztató<br>Privacy Policy</h1>
+    <nav class="lang" aria-label="Nyelv / Language">
+      <a href="#hu" hreflang="hu">Magyar</a>
+      <a href="#en" hreflang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================ MAGYAR ============================ -->
+<article id="hu" lang="hu">
+  <h2>Adatvédelmi tájékoztató</h2>
+  <p class="date">Hatályos: 2026. szeptember 10.</p>
+
+  <div class="short">
+    <p><strong>Röviden:</strong> a TraceMyRide minden adatodat kizárólag a saját telefonodon tárolja. Nincs felhasználói fiók, nincs saját szerver, nincs reklám és nincs használatkövetés (analitika). A fejlesztő semmilyen személyes adatodat nem kapja meg.</p>
+    <p>Az egyetlen kivétel a térkép (Google Maps) és a motormárka-javaslat, ezeket lent részletezzük.</p>
+  </div>
+
+  <p>Ez a tájékoztató a TraceMyRide Android alkalmazásra (a továbbiakban: az app) vonatkozik. Az app fejlesztője: <span class="placeholder">[FEJLESZTŐ NEVE]</span>, elérhetőség: <span class="placeholder">[E-MAIL CÍM]</span>.</p>
+
+  <h3>Milyen adatokat kezel az app a telefonodon?</h3>
+  <ul>
+    <li><strong>Helyadatok (pontos GPS).</strong> Az app a helyadatot a túrák rögzítéséhez és az ahhoz kapcsolódó térképes funkciókhoz használja: útvonal, sebesség, magasság, haladási irány és időbélyeg. Rögzítés közben az app előtérben futó szolgáltatással dolgozik (ezt egy állandó értesítés jelzi), így a rögzítés lezárt képernyőnél is folytatódik. Ha a rögzítést leállítod, a szolgáltatás is leáll.</li>
+    <li><strong>Szenzoradatok.</strong> Ha opcionális TraceMyRide szenzort használsz, az app Bluetooth-on keresztül dőlésszöget és gyorsulási (G-erő) adatokat fogad, és ezeket a túra adataihoz menti.</li>
+    <li><strong>Fényképek.</strong> Ha engedélyezed a fotók elérését, a túra részleteinél az app megkeresi a galériádban azokat a képeket, amelyek a túra ideje alatt készültek, és kiolvassa belőlük a beágyazott helyadatot (EXIF), hogy a térképen a megfelelő helyen mutassa őket. A képeket az app nem másolja, nem módosítja és nem küldi el sehova. Ha a motorodhoz fotót választasz, az app a kivágott képet a saját tárhelyére menti.</li>
+    <li><strong>Garázs és beállítások.</strong> A motorjaid adatai, a karbantartási bejegyzések, az elmentett útvonalak és az app beállításai (pl. mértékegység).</li>
+  </ul>
+  <p>Mindezek az app saját, más alkalmazások számára nem elérhető tárhelyén vannak a telefonodon.</p>
+
+  <h3>Bluetooth és WiFi</h3>
+  <p>Az app a Bluetooth-t kizárólag a TraceMyRide szenzor megtalálására és a vele való kapcsolatra használja, helymeghatározásra nem. A szenzor firmware-frissítésekor a telefon ideiglenesen csatlakozik a szenzor saját WiFi-hálózatához. Ez a kapcsolat nem ér el internetet, csak a frissítőfájl átvitelére szolgál, és a frissítés végén megszűnik.</p>
+
+  <h3>Android Auto</h3>
+  <p>Ha az appot Android Auto-val használod, a menetadatok (sebesség, dőlésszög, G-erő) az autó kijelzőjén jelennek meg. Ez közvetlenül a telefon és az autó között történik, az app ehhez nem küld adatot interneten keresztül.</p>
+
+  <h3>Harmadik fél szolgáltatások</h3>
+  <p><strong>Google Maps.</strong> A térképeket az app a Google Maps szolgáltatással jeleníti meg. Ehhez a Google Maps SDK a térképrészletek letöltése során kapcsolatba lép a Google szervereivel. A Google tájékoztatása szerint az SDK automatikusan gyűjt kérés- és eszközadatokat (pl. Android-verzió, eszközmodell), összeomlási adatokat, IP-címet és egy SDK-azonosítót, valamint a térkép használatára (nagyítás, mozgatás) vonatkozó adatokat. Ezt az adatkezelést a Google LLC végzi a saját <a href="https://policies.google.com/privacy" rel="noopener">adatvédelmi irányelvei</a> szerint. A rögzített túráid adatai nem kerülnek át a Google-hoz.</p>
+  <p><strong>Motormárka- és modelljavaslat.</strong> Amikor új motort veszel fel, az app márka- és modelljavaslatokat kér az amerikai közlekedésbiztonsági hatóság (NHTSA) nyilvános vPIC adatbázisából. Ilyenkor csak a kiválasztott márkanév és évjárat, valamint technikailag a telefonod IP-címe jut el a szolgáltatóhoz. Internetkapcsolat nélkül a javaslat egyszerűen elmarad, a mezőket kézzel is kitöltheted.</p>
+  <p>Az app nem tartalmaz reklámot, analitikai vagy összeomlás-jelentő szolgáltatást, és az adataidat senkinek nem adja el.</p>
+
+  <h3>Megosztás és exportálás</h3>
+  <p>Túrát GPX-fájlba exportálhatsz, útvonalat átadhatsz navigációs appnak, és teljes biztonsági mentést készíthetsz. Ezek csak akkor történnek meg, ha te indítod el őket, és a fájl oda kerül, ahová te küldöd (pl. fájlkezelő, felhőtár, üzenetküldő). Onnantól az adott szolgáltatás szabályai érvényesek rá. A biztonsági mentés az összes túrádat (így a helyadataidat) és a motorfotóidat tartalmazza titkosítás nélkül, ezért biztonságos helyen tárold.</p>
+
+  <h3>Megőrzés és törlés</h3>
+  <p>Az adatok addig maradnak a telefonodon, amíg nem törlöd őket. Az egyes elemeket az appban törölheted. Az összes adatot az app eltávolításával vagy az Android beállításaiban (Alkalmazások → TraceMyRide → Tárhely → Adatok törlése) törölheted. Mivel a fejlesztőnél nincs rólad tárolt adat, ezen a ponton túl nincs mit törölni.</p>
+
+  <h3>Gyermekek</h3>
+  <p>Az app nem 16 év alatti gyermekeknek készült.</p>
+
+  <h3>Jogaid</h3>
+  <p>Az általános adatvédelmi rendelet (GDPR) alapján jogod van tájékoztatást kérni az adataid kezeléséről, és kérni azok törlését. Mivel az app adatai csak a telefonodon vannak, ezeket te magad kezeled és törölheted. A Google által kezelt adatokkal kapcsolatban a Google-höz fordulhatsz. Kérdéseiddel írj a fenti e-mail címre. Panaszt a Nemzeti Adatvédelmi és Információszabadság Hatóságnál (NAIH, <a href="https://naih.hu" rel="noopener">naih.hu</a>) vagy a lakóhelyed szerinti adatvédelmi hatóságnál tehetsz.</p>
+
+  <h3>Változások</h3>
+  <p>Ha az app adatkezelése megváltozik, ezt az oldalt frissítjük, és a fenti hatálybalépési dátumot módosítjuk.</p>
+</article>
+
+<!-- ============================ ENGLISH ============================ -->
+<article id="en" lang="en">
+  <h2>Privacy Policy</h2>
+  <p class="date">Effective: September 10, 2026</p>
+
+  <div class="short">
+    <p><strong>In short:</strong> TraceMyRide stores all of your data only on your own phone. There is no user account, no developer-operated server, no advertising and no usage tracking (analytics). The developer does not receive any of your personal data.</p>
+    <p>The only exceptions are the map (Google Maps) and the motorcycle make suggestions, described below.</p>
+  </div>
+
+  <p>This policy applies to the TraceMyRide Android app (the “app”). Developer: <span class="placeholder">[DEVELOPER NAME]</span>, contact: <span class="placeholder">[EMAIL ADDRESS]</span>.</p>
+
+  <h3>What data does the app handle on your phone?</h3>
+  <ul>
+    <li><strong>Location (precise GPS).</strong> The app uses location to record rides and for the related map features: route, speed, altitude, heading and timestamps. While recording, the app runs a foreground service (shown by a persistent notification) so recording continues with the screen off. When you stop recording, the service stops.</li>
+    <li><strong>Sensor data.</strong> If you use the optional TraceMyRide sensor, the app receives lean angle and acceleration (g-force) data over Bluetooth and saves it with the ride.</li>
+    <li><strong>Photos.</strong> If you allow photo access, the ride detail screen finds photos in your gallery that were taken during the ride and reads their embedded location (EXIF) to show them at the right spot on the map. The app does not copy, modify or send these photos anywhere. If you pick a photo for your motorcycle, the app saves the cropped image in its own storage.</li>
+    <li><strong>Garage and settings.</strong> Your motorcycles, maintenance entries, saved routes and app settings (e.g. units).</li>
+  </ul>
+  <p>All of this is kept in the app’s private storage on your phone, which other apps cannot access.</p>
+
+  <h3>Bluetooth and Wi-Fi</h3>
+  <p>The app uses Bluetooth only to find and connect to the TraceMyRide sensor, never to determine your location. During a sensor firmware update, the phone temporarily joins the sensor’s own Wi-Fi network. This connection has no internet access, is used only to transfer the update file, and ends when the update finishes.</p>
+
+  <h3>Android Auto</h3>
+  <p>If you use the app with Android Auto, ride data (speed, lean angle, g-force) is shown on the car display. This happens directly between your phone and the car; the app sends nothing over the internet for it.</p>
+
+  <h3>Third-party services</h3>
+  <p><strong>Google Maps.</strong> The app displays maps using Google Maps. To download map tiles, the Google Maps SDK connects to Google’s servers. According to Google, the SDK automatically collects request and device metadata (e.g. Android version, device model), crash data, IP address and an SDK identifier, as well as map interaction data (zooming, panning). This processing is carried out by Google LLC under its own <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a>. Your recorded rides are not sent to Google.</p>
+  <p><strong>Motorcycle make and model suggestions.</strong> When you add a motorcycle, the app requests make and model suggestions from the public vPIC database of the U.S. National Highway Traffic Safety Administration (NHTSA). Only the selected make and model year, and technically your phone’s IP address, reach the provider. Without an internet connection the suggestions are simply skipped and you can fill in the fields manually.</p>
+  <p>The app contains no advertising, analytics or crash-reporting services, and your data is never sold.</p>
+
+  <h3>Sharing and export</h3>
+  <p>You can export a ride as a GPX file, hand a route over to a navigation app, and create a full backup. These happen only when you start them, and the file goes wherever you send it (e.g. a file manager, cloud storage, a messenger). From then on, that service’s rules apply. The backup contains all your rides (including location history) and motorcycle photos without encryption, so keep it somewhere safe.</p>
+
+  <h3>Retention and deletion</h3>
+  <p>Data stays on your phone until you delete it. You can delete individual items in the app. To delete everything, uninstall the app or clear its data in Android settings (Apps → TraceMyRide → Storage → Clear data). Since the developer holds no data about you, there is nothing further to delete.</p>
+
+  <h3>Children</h3>
+  <p>The app is not intended for children under 16.</p>
+
+  <h3>Your rights</h3>
+  <p>Under the EU General Data Protection Regulation (GDPR) you have the right to information about how your data is processed and to request its deletion. Because the app’s data exists only on your phone, you control and can delete it yourself. For data processed by Google, please contact Google. For questions, write to the email address above. You may lodge a complaint with the Hungarian National Authority for Data Protection and Freedom of Information (NAIH, <a href="https://naih.hu" rel="noopener">naih.hu</a>) or with the data protection authority in your country of residence.</p>
+
+  <h3>Changes</h3>
+  <p>If the app’s data handling changes, this page will be updated and the effective date above will be changed.</p>
+</article>
+
+</main>
+
+<footer>
+  <p>TraceMyRide</p>
+</footer>
+
+</body>
+</html>
